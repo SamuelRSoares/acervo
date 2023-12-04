@@ -1,4 +1,3 @@
-// periodico.h
 #ifndef PERIODICO_H
 #define PERIODICO_H
 

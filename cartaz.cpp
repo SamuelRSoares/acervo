@@ -1,4 +1,3 @@
-// cartaz.cpp
 #include "cartaz.h"
 #include <iostream>
 

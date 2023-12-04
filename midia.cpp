@@ -1,4 +1,3 @@
-// midia.cpp
 #include "midia.h"
 #include <iostream>
 

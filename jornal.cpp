@@ -1,4 +1,3 @@
-// jornal.cpp
 #include "jornal.h"
 #include <iostream>
 

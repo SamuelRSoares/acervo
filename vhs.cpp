@@ -1,4 +1,3 @@
-// vhs.cpp
 #include "vhs.h"
 #include <iostream>
 

@@ -1,4 +1,3 @@
-// revista.cpp
 #include "revista.h"
 #include <iostream>
 

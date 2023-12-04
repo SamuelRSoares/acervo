@@ -1,4 +1,3 @@
-// cartaz.h
 #ifndef CARTAZ_H
 #define CARTAZ_H
 

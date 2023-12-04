@@ -1,4 +1,3 @@
-// vhs.h
 #ifndef VHS_H
 #define VHS_H
 

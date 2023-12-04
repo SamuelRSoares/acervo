@@ -1,4 +1,3 @@
-// cd.cpp
 #include "cd.h"
 #include <iostream>
 

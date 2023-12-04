@@ -1,4 +1,3 @@
-// revista.h
 #ifndef REVISTA_H
 #define REVISTA_H
 

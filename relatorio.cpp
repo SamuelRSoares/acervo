@@ -1,4 +1,3 @@
-// relatorio.cpp
 #include "relatorio.h"
 #include <iostream>
 

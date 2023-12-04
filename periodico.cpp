@@ -1,4 +1,3 @@
-// periodico.cpp
 #include "periodico.h"
 #include <iostream>
 

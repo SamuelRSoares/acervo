@@ -1,4 +1,3 @@
-// midia.h
 #ifndef MIDIA_H
 #define MIDIA_H
 

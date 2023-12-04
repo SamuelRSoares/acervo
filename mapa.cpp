@@ -1,4 +1,3 @@
-// mapa.cpp
 #include "mapa.h"
 #include <iostream>
 

@@ -1,4 +1,3 @@
-// monografia.cpp
 #include "monografia.h"
 #include <iostream>
 
