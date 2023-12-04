@@ -10,7 +10,7 @@ class Item {
 private:
     string titulo;
     string data_publicacao;
-    string autores; // Alterado para string única
+    string autores;
     string data_emprestimo;
     string data_devolucao;
     string descricao;
@@ -24,13 +24,13 @@ public:
          string descricao, string local_publicacao);
 
     // Métodos getters e setters
-    string getTitulo() const;
-    string getDataPublicacao() const;
-    string getAutores() const;
-    string getDataEmprestimo() const;
-    string getDataDevolucao() const;
-    string getDescricao() const;
-    string getLocalPublicacao() const;
+    string getTitulo();
+    string getDataPublicacao();
+    string getAutores();
+    string getDataEmprestimo();
+    string getDataDevolucao();
+    string getDescricao();
+    string getLocalPublicacao();
 
     void setTitulo(string titulo);
     void setDataPublicacao(string data_publicacao);
@@ -40,8 +40,8 @@ public:
     void setDescricao(string descricao);
     void setLocalPublicacao(string local_publicacao);
 
-    // Método para imprimir informações
-    void imprimirInformacoes() const;
+    // Método para imprimir informações virtual puro pois a classe é abstrata
+    virtual void imprimirInformacoes()=0;
 };
 
 #endif

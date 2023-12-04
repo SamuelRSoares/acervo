@@ -27,31 +27,31 @@ Item::Item(string titulo, string data_publicacao, string autores,
 }
 
 // Métodos getters e setters
-string Item::getTitulo() const {
+string Item::getTitulo() {
     return titulo;
 }
 
-string Item::getDataPublicacao() const {
+string Item::getDataPublicacao() {
     return data_publicacao;
 }
 
-string Item::getAutores() const {
+string Item::getAutores() {
     return autores;
 }
 
-string Item::getDataEmprestimo() const {
+string Item::getDataEmprestimo() {
     return data_emprestimo;
 }
 
-string Item::getDataDevolucao() const {
+string Item::getDataDevolucao() {
     return data_devolucao;
 }
 
-string Item::getDescricao() const {
+string Item::getDescricao() {
     return descricao;
 }
 
-string Item::getLocalPublicacao() const {
+string Item::getLocalPublicacao() {
     return local_publicacao;
 }
 
@@ -84,7 +84,7 @@ void Item::setLocalPublicacao(string local_publicacao) {
 }
 
 // Método para imprimir informações
-void Item::imprimirInformacoes() const {
+void Item::imprimirInformacoes() {
     cout << "Título: " << titulo << endl;
     cout << "Data de Publicação: " << data_publicacao << endl;
     cout << "Autores: " << autores << endl;

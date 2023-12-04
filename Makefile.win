@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = main.o item.o livro.o usuario.o
-LINKOBJ  = main.o item.o livro.o usuario.o
+OBJ      = main.o item.o livro.o usuario.o trabalho_de_conclusao.o monografia.o dissertacao.o tese.o cartaz.o periodico.o revista.o jornal.o relatorio.o mapa.o midia.o cd.o vhs.o dvd.o
+LINKOBJ  = main.o item.o livro.o usuario.o trabalho_de_conclusao.o monografia.o dissertacao.o tese.o cartaz.o periodico.o revista.o jornal.o relatorio.o mapa.o midia.o cd.o vhs.o dvd.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -35,3 +35,45 @@ livro.o: livro.cpp
 
 usuario.o: usuario.cpp
 	$(CPP) -c usuario.cpp -o usuario.o $(CXXFLAGS)
+
+trabalho_de_conclusao.o: trabalho_de_conclusao.cpp
+	$(CPP) -c trabalho_de_conclusao.cpp -o trabalho_de_conclusao.o $(CXXFLAGS)
+
+monografia.o: monografia.cpp
+	$(CPP) -c monografia.cpp -o monografia.o $(CXXFLAGS)
+
+dissertacao.o: dissertacao.cpp
+	$(CPP) -c dissertacao.cpp -o dissertacao.o $(CXXFLAGS)
+
+tese.o: tese.cpp
+	$(CPP) -c tese.cpp -o tese.o $(CXXFLAGS)
+
+cartaz.o: cartaz.cpp
+	$(CPP) -c cartaz.cpp -o cartaz.o $(CXXFLAGS)
+
+periodico.o: periodico.cpp
+	$(CPP) -c periodico.cpp -o periodico.o $(CXXFLAGS)
+
+revista.o: revista.cpp
+	$(CPP) -c revista.cpp -o revista.o $(CXXFLAGS)
+
+jornal.o: jornal.cpp
+	$(CPP) -c jornal.cpp -o jornal.o $(CXXFLAGS)
+
+relatorio.o: relatorio.cpp
+	$(CPP) -c relatorio.cpp -o relatorio.o $(CXXFLAGS)
+
+mapa.o: mapa.cpp
+	$(CPP) -c mapa.cpp -o mapa.o $(CXXFLAGS)
+
+midia.o: midia.cpp
+	$(CPP) -c midia.cpp -o midia.o $(CXXFLAGS)
+
+cd.o: cd.cpp
+	$(CPP) -c cd.cpp -o cd.o $(CXXFLAGS)
+
+vhs.o: vhs.cpp
+	$(CPP) -c vhs.cpp -o vhs.o $(CXXFLAGS)
+
+dvd.o: dvd.cpp
+	$(CPP) -c dvd.cpp -o dvd.o $(CXXFLAGS)

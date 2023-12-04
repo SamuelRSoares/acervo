@@ -50,9 +50,9 @@ void Livro::setVolume(int volume) {
 }
 
 // Método para imprimir informações (sobrescrito)
-void Livro::imprimirInformacoes() const {
+void Livro::imprimirInformacoes() {
+	cout << "Informações do Livro: " << endl;
     Item::imprimirInformacoes(); // Chama o método da classe base
-
     // Imprime informações adicionais do Livro
     cout << "ISBN: " << isbn << endl;
     cout << "Editora: " << editora << endl;

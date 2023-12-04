@@ -33,7 +33,7 @@ public:
     void setVolume(int volume);
 
     // Método para imprimir informações (sobrescrito)
-    void imprimirInformacoes() const;
+    void imprimirInformacoes();
 };
 
 #endif
